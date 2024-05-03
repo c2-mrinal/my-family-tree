@@ -1,0 +1,12 @@
+.flex {
+	display: flex;
+}
+.justify-evenly {
+	justify-content: space-evenly;
+}
+.justify-between {
+	justify-content: space-between;
+}
+.justify-around {
+	justify-content: space-around;
+}
