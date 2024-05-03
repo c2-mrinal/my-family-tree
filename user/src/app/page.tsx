@@ -1,10 +1,14 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import FamilyTree from "../components/FamilyTree"
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-     Hello World
+    <main >
+     <FamilyTree
+     data = {{data:"yes"}}
+     type="circle"
+     onHover="show"
+     />
     </main>
   );
 }

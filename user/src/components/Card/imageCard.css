@@ -1,0 +1,14 @@
+.box {
+	min-width: 50px;
+	min-height: 50px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	margin: 5rem auto;
+	padding: 0 2rem;
+}
+.imageDisplay {
+	margin: auto;
+	border-radius: 50%;
+}
